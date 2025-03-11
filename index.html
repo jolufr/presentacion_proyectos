@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .titulo {
+            text-align: center;
+        }
+        .descripcion {
+            margin-left: 1cm;
+            margin-right: 1cm;
+        }
+        .proyectos-container {
+            margin-left: 1cm;
+        }
+        .proyecto {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .proyecto-texto {
+            width: 50%;
+            margin-left: 2cm;
+        }
+        .proyecto-imagen {
+            width: 50%;
+            text-align: center;
+            margin-right: 1cm;
+        }
+        .proyecto-imagen img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        #contacto {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #contacto ul {
+            list-style: none;
+            padding: 0;
+        }
+        #contacto li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .botones-contacto {
+            margin-top: 15px;
+        }
+        .boton {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            margin: 5px;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner"></header>
+
+    <div class="intro">
+        <h2 class="titulo">¿Quién soy?</h2>
+        <p class="descripcion">Soy Científico de Datos con formación en Administración de Empresas y experiencia en análisis de datos aplicado a estrategias comerciales y operativas. Experiencia en el desarrollo de modelos predictivos para optimización de ventas, retención de clientes y eficiencia logística. Poseo habilidades en Python, SQL y Power BI para la toma de decisiones basada en datos. Enfoque estratégico y capacidad de traducir insights en acciones tangibles que impulsen el crecimiento organizacional.</p>
+    </div>
+
+    <section id="proyectos">
+        <h2 class="titulo">Proyectos Destacados</h2>
+        <div class="proyectos-container">
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/retail.jpg" alt="Predicción de Ventas en Retail Online">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Predicción de Ventas en Retail Online</h3>
+                    <p>Este proyecto desarrolla un modelo predictivo para estimar la cantidad de ventas futuras en un negocio de retail online. Utilizando Prophet, K-Means y Apriori, se analizan patrones de compra, segmentación de clientes y predicción de demanda, permitiendo optimizar la gestión del inventario y mejorar estrategias comerciales.</p>
+                    <a href="https://github.com/jolufr/retail_ventas_futuras.git" target="blank">Ver en GitHub</a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/taxis.jpg" alt="Predicción de Pedidos de Taxis">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Predicción de Pedidos de Taxis</h3>
+                    <p>Modelo predictivo que anticipa la demanda de taxis en la próxima hora. Utilizando técnicas de Machine Learning como RandomForest, XGBoost y Regresión Lineal, se optimiza la asignación de vehículos, reduciendo tiempos de espera y mejorando la eficiencia operativa del servicio.</p>
+                    <a href="https://github.com/jolufr/disponibilidad_taxis.git" target="blank">Ver en GitHub</a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/contrato.jpg" alt="Predicción de Cancelaciones de Clientes">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Predicción de Cancelaciones de Clientes</h3>
+                    <p>Este modelo analiza el riesgo de cancelación de clientes y los factores determinantes en su retención. Se implementaron modelos como Regresión Logística, Random Forest y XGBoost, permitiendo a las empresas mejorar la fidelización y optimizar sus estrategias de retención.</p>
+                    <a href="https://github.com/jolufr/cancelar_contrato.git" target="blank">Ver en GitHub</a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/pozos.jpg" alt="Optimización en la Explotación Petrolera">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Optimización en la Explotación Petrolera</h3>
+                    <p>Modelo predictivo para evaluar la viabilidad de explotación en distintos pozos petroleros, proporcionando una estimación precisa de la producción de barriles de crudo. Se implementó una regresión lineal validada con bootstrapping para reducir la incertidumbre en la toma de decisiones.</p>
+                    <a href="https://github.com/jolufr/bootstrapping.git" target="blank">Ver en GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en:</p>
+        <ul>
+            <li>Email: jolufr@gmail.com</li>
+        </ul>
+        <div class="botones-contacto">
+            <a href="https://www.linkedin.com/in/josefernandez-datascientist/" target="_blank" class="boton">LinkedIn</a>
+            <a href="https://github.com/jolufr" target="_blank" class="boton">GitHub</a>
+        </div>
+    </section>
+    
+    <footer class="centrado">
+        <p>&copy; 2025 - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
