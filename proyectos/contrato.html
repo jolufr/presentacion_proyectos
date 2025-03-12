@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Proyecto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .imagen-proyecto {
+            text-align: center;
+        }
+        .imagen-proyecto img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .boton {
+            display: block;
+            width: 200px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Predicción de Cancelaciones de Clientes</h1>
+
+    <div class="imagen-proyecto">
+        <img src="../img/contrato.jpg" alt="Predicción de Cancelaciones de Clientes">
+    </div>
+
+    <h2>🔍 Introducción</h2>
+    <p>
+        Este proyecto desarrolla un modelo predictivo para estimar la probabilidad de cancelación de clientes.
+    </p>
+
+    <h2>🎯 Objetivo</h2>
+    <p>
+        Predecir la probabilidad de cancelación de clientes y detectar factores determinantes en la retención.
+    </p>
+
+    <h2>🧐 Tecnologías Utilizadas</h2>
+    <ul>
+        <li>Procesamiento de Datos: pandas, numpy, IPython.display, tqdm</li>
+        <li>Visualización: matplotlib, seaborn, collections.Counter</li>
+        <li>Modelado Predictivo:
+            <ul>
+                <li>Manejo de desequilibrio: imblearn.over_sampling.SMOTE</li>
+                <li>Modelos utilizados: Regresión Logística, Random Forest, XGBoost, LightGBM, MLPClassifier</li>
+                <li>Evaluación: AUC-ROC, Accuracy, Log Loss, SHAP para interpretabilidad</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>📊 Pasos Clave (Metodología)</h2>
+    <h3>1️⃣ Preparación y Análisis Exploratorio de Datos (EDA)</h3>
+    <ul>
+        <li>Revisión y limpieza de los datos para asegurar integridad.</li>
+        <li>Análisis de balance de clases y relevancia de variables (servicios, planes, demografía).</li>
+        <li>Creación de nuevas características para mejorar la representación del problema.</li>
+    </ul>
+    
+    <h3>2️⃣ Modelado Predictivo</h3>
+    <ul>
+        <li>Aplicación de técnicas de transformación y codificación de variables.</li>
+        <li>Entrenamiento de modelos de Machine Learning con validación cruzada.</li>
+        <li>Evaluación del desempeño usando AUC-ROC, exactitud y otras métricas clave.</li>
+    </ul>
+
+    <h2>📊 Resultados</h2>
+    <ul>
+        <li>Identificar clientes con alto riesgo de cancelación.</li>
+        <li>Diseñar estrategias de retención basadas en insights clave.</li>
+        <li>Optimizar la gestión operativa y mejorar la satisfacción del cliente.</li>
+    </ul>
+
+    <a href="https://github.com/jolufr/cancelar_contrato.git" target="_blank" class="boton">Ver en GitHub</a>
+    <a href="../index.html" class="boton">Volver al Portafolio</a>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Proyecto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .imagen-proyecto {
+            text-align: center;
+        }
+        .imagen-proyecto img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .boton {
+            display: block;
+            width: 200px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Predicción de Ventas en Retail Online</h1>
+
+    <div class="imagen-proyecto">
+        <img src="../img/retail.jpg" alt="Predicción de Ventas">
+    </div>
+
+    <h2>🔍 Introducción</h2>
+    <p>
+        Este proyecto tiene como objetivo desarrollar un modelo predictivo para estimar la cantidad de ventas futuras en un negocio de retail online.
+    </p>
+
+    <h2>🎯 Objetivo</h2>
+    <p>
+        Proporcionar una herramienta basada en datos que permita anticipar la demanda futura, optimizar la gestión del inventario y mejorar la toma de decisiones comerciales.
+    </p>
+
+    <h2>🛠️ Tecnologías Utilizadas</h2>
+    <ul>
+        <li>Python: Pandas, Matplotlib, Seaborn, Scikit-learn, Prophet, Apriori</li>
+        <li>Jupyter Notebook: Entorno interactivo para análisis</li>
+        <li>Conjunto de datos en CSV: Contiene información sobre ventas y comportamiento de los clientes</li>
+    </ul>
+
+    <h2>📈 Pasos Clave (Metodología)</h2>
+    <h3>1️⃣ Análisis Exploratorio de Datos (EDA)</h3>
+    <ul>
+        <li>Identificación de productos más vendidos</li>
+        <li>Análisis de clientes recurrentes vs. nuevos</li>
+        <li>Evaluación de tendencias de ventas a lo largo del tiempo</li>
+    </ul>
+    
+    <h3>2️⃣ Modelos de Machine Learning</h3>
+    <ul>
+        <li><strong>Predicción de Ventas Futuras:</strong> Uso de Prophet para modelar y predecir las ventas para los próximos 30 días.</li>
+        <li><strong>Segmentación de Clientes:</strong> Cálculo de métricas RFM y aplicación de K-Means para identificar perfiles de clientes.</li>
+        <li><strong>Recomendación de Productos:</strong> Uso de Apriori para encontrar reglas de asociación y sugerir productos a los clientes.</li>
+    </ul>
+
+    <h2>📊 Resultados</h2>
+    <ul>
+        <li>Existen patrones de compra recurrentes a lo largo del tiempo.</li>
+        <li>Los clientes pueden ser segmentados en grupos útiles para estrategias de marketing.</li>
+        <li>Es posible predecir las ventas futuras con un modelo basado en datos históricos.</li>
+    </ul>
+
+    <a href="https://github.com/jolufr/retail_ventas_futuras.git" target="_blank" class="boton">Ver en GitHub</a>
+    <a href="../index.html" class="boton">Volver al Portafolio</a>
+
+</body>
+</html>

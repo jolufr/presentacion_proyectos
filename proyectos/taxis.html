@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Proyecto - Predicción de Pedidos de Taxis</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .imagen-proyecto {
+            text-align: center;
+        }
+        .imagen-proyecto img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .boton {
+            display: block;
+            width: 200px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Predicción de Pedidos de Taxis</h1>
+
+    <div class="imagen-proyecto">
+        <img src="../img/taxis.jpg" alt="Predicción de Pedidos de Taxis">
+    </div>
+
+    <h2>🔍 Introducción</h2>
+    <p>
+        Este proyecto desarrolla un modelo predictivo para anticipar la cantidad de pedidos de taxis en la próxima hora.
+    </p>
+
+    <h2>🎯 Objetivo</h2>
+    <p>
+        Predecir con precisión la demanda de taxis mediante modelos de Machine Learning.
+    </p>
+
+    <h2>🛠️ Tecnologías Utilizadas</h2>
+    <ul>
+        <li>Procesamiento de Datos: Pandas, NumPy, statsmodels, IPython</li>
+        <li>Visualización: Matplotlib, Seaborn</li>
+        <li>Modelado Predictivo: RandomForest, XGBoost, LightGBM, MLPClassifier</li>
+        <li>Modelo seleccionado: Regresión Lineal (LinearRegression)</li>
+        <li>Métricas de evaluación: RMSE, AUC-ROC, mean_squared_error, make_scorer</li>
+    </ul>
+
+    <h2>📈 Pasos Clave (Metodología)</h2>
+    <h3>1️⃣ Análisis y Preparación de Datos</h3>
+    <ul>
+        <li>Recopilación y limpieza de datos históricos de pedidos.</li>
+        <li>Análisis exploratorio de tendencias y estacionalidad en la demanda de taxis.</li>
+    </ul>
+    
+    <h3>2️⃣ Entrenamiento del Modelo</h3>
+    <ul>
+        <li>Prueba de diferentes modelos de Machine Learning.</li>
+        <li>Selección del mejor modelo basado en la métrica RMSE.</li>
+    </ul>
+
+    <h3>3️⃣ Optimización de la Predicción</h3>
+    <ul>
+        <li>Comparación de modelos en términos de precisión y tiempo de cómputo.</li>
+        <li>Implementación del modelo de Regresión Lineal, logrando un RMSE de 8.91.</li>
+    </ul>
+
+    <h2>📊 Resultados</h2>
+    <ul>
+        <li>Mayor precisión en la predicción de la demanda de taxis.</li>
+        <li>Optimización de la asignación de vehículos, reduciendo tiempos de espera.</li>
+        <li>Mejora en la eficiencia operativa, maximizando la rentabilidad del servicio.</li>
+    </ul>
+
+    <a href="https://github.com/jolufr/disponibilidad_taxis.git" target="_blank" class="boton">Ver en GitHub</a>
+    <a href="../index.html" class="boton">Volver al Portafolio</a>
+
+</body>
+</html>

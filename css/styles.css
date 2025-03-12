@@ -1,0 +1,106 @@
+/* Estilo del banner */
+.banner {
+    background-image: url('../banner.png'); /* Ajusta la ruta si es necesario */
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Ajusta la altura del banner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+/* Fondo semitransparente para el texto */
+.banner-content {
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Imagen de perfil */
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace a tu archivo CSS externo -->
+    
+    <style>
+        .titulo {
+            text-align: center;
+        }
+        .descripcion {
+            margin-left: 1cm;
+            margin-right: 1cm;
+        }
+        .proyectos-container {
+            margin-left: 1cm;
+        }
+        .proyecto {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .proyecto-texto {
+            width: 50%;
+            margin-left: 2cm;
+        }
+        .proyecto-imagen {
+            width: 50%;
+            text-align: center;
+            margin-right: 1cm;
+        }
+        .proyecto-imagen img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .botones {
+            margin-top: 10px;
+        }
+        .boton {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+
+        /* Centrar la sección de contacto */
+        #contacto {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+	/* Asegurar que la lista de contacto también esté centrada */
+#contacto ul {
+    list-style: none; /* Quita los estilos de lista */
+    padding: 0;
+    text-align: center;
+       }
+
+        /* Centrar los botones de la sección de contacto */
+        .botones-contacto {
+            display: flex;
+            justify-content: center;
+            gap: 15px; /* Espacio entre botones */
+            margin-top: 10px;
+        }
+    </style>
+</head>

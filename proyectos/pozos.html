@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Proyecto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .imagen-proyecto {
+            text-align: center;
+        }
+        .imagen-proyecto img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .boton {
+            display: block;
+            width: 200px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Optimización en la Explotación Petrolera</h1>
+
+    <div class="imagen-proyecto">
+        <img src="../img/pozos.jpg" alt="Optimización en la Explotación Petrolera">
+    </div>
+
+    <h2>🔍 Introducción</h2>
+    <p>
+        Este proyecto busca desarrollar un modelo predictivo para validar los datos recogidos de distintos pozos y proyectar la cantidad de barriles de crudo que ofrece cada uno.
+    </p>
+
+    <h2>🎯 Objetivo</h2>
+    <p>
+        Identificar las regiones con mayor rentabilidad para la explotación petrolera, minimizando riesgos y maximizando beneficios.
+    </p>
+
+    <h2>🛠️ Tecnologías Utilizadas</h2>
+    <ul>
+        <li>Procesamiento de Datos: Pandas, NumPy</li>
+        <li>Modelado Predictivo: Regresión Lineal (LinearRegression), StandardScaler</li>
+        <li>Validación: Bootstrapping con 1000 iteraciones</li>
+        <li>Evaluación: Mean Squared Error (MSE) y R² Score</li>
+        <li>Visualización: Matplotlib</li>
+    </ul>
+
+    <h2>📈 Pasos Clave (Metodología)</h2>
+    <h3>1️⃣ Limpieza y Análisis de Datos</h3>
+    <ul>
+        <li>Validación de valores y eliminación de datos inconsistentes.</li>
+        <li>Exploración inicial para entender la distribución de los datos.</li>
+    </ul>
+    
+    <h3>2️⃣ Modelado Predictivo</h3>
+    <ul>
+        <li>División de datos en entrenamiento y prueba.</li>
+        <li>Aplicación de regresión lineal para estimar la producción de barriles.</li>
+        <li>Evaluación del modelo con métricas de error y precisión.</li>
+    </ul>
+
+    <h3>3️⃣ Análisis de Riesgo y Beneficio</h3>
+    <ul>
+        <li>Simulación de 1000 escenarios con bootstrapping.</li>
+        <li>Cálculo del promedio de beneficio esperado.</li>
+        <li>Estimación del intervalo de confianza y nivel de riesgo de inversión.</li>
+    </ul>
+
+    <h2>📊 Resultados</h2>
+    <ul>
+        <li>Proyección de la producción de barriles de crudo por pozo.</li>
+        <li>Identificación de las regiones con mayor potencial para explotación.</li>
+        <li>Reducción de los riesgos asociados a la inversión petrolera.</li>
+    </ul>
+
+    <a href="https://github.com/jolufr/bootstrapping.git" target="_blank" class="boton">Ver en GitHub</a>
+    <a href="../index.html" class="boton">Volver al Portafolio</a>
+
+</body>
+</html>
+

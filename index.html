@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .titulo {
+            text-align: center;
+        }
+        .descripcion {
+            margin-left: 1cm;
+            margin-right: 1cm;
+        }
+        .proyectos-container {
+            margin-left: 1cm;
+        }
+        .proyecto {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .proyecto-texto {
+            width: 50%;
+            margin-left: 2cm;
+        }
+        .proyecto-imagen {
+            width: 50%;
+            text-align: center;
+            margin-right: 1cm;
+        }
+        .proyecto-imagen img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .botones {
+            margin-top: 10px;
+        }
+        .boton {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner"></header>
+
+    <div class="intro">
+        <h2 class="titulo">¿Quién soy?</h2>
+        <p class="descripcion">Soy Científico de Datos con formación en Administración de Empresas y experiencia en análisis de datos aplicado a estrategias comerciales y operativas...</p>
+    </div>
+
+    <section id="proyectos">
+        <h2 class="titulo">Proyectos Destacados</h2>
+        <div class="proyectos-container">
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/retail.jpg" alt="Predicción de Ventas en Retail Online">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Predicción de Ventas en Retail Online</h3>
+                    <p>Este proyecto desarrolla un modelo predictivo para estimar la cantidad de ventas futuras en un negocio de retail online...</p>
+                    <div class="botones">
+                        <a href="https://github.com/jolufr/retail_ventas_futuras.git" target="_blank" class="boton">Ver en GitHub</a>
+                        <a href="proyectos/retail.html" target="_blank" class="boton">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/taxis.jpg" alt="Predicción de Pedidos de Taxis">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Predicción de Pedidos de Taxis</h3>
+                    <p>Modelo predictivo que anticipa la demanda de taxis en la próxima hora...</p>
+                    <div class="botones">
+                        <a href="https://github.com/jolufr/disponibilidad_taxis.git" target="_blank" class="boton">Ver en GitHub</a>
+                        <a href="proyectos/taxis.html" target="_blank" class="boton">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/contrato.jpg" alt="Predicción de Cancelaciones de Clientes">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Predicción de Cancelaciones de Clientes</h3>
+                    <p>Este modelo analiza el riesgo de cancelación de clientes y los factores determinantes en su retención...</p>
+                    <div class="botones">
+                        <a href="https://github.com/jolufr/cancelar_contrato.git" target="_blank" class="boton">Ver en GitHub</a>
+                        <a href="proyectos/contrato.html" target="_blank" class="boton">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-imagen">
+                    <img src="img/pozos.jpg" alt="Optimización en la Explotación Petrolera">
+                </div>
+                <div class="proyecto-texto">
+                    <h3>Optimización en la Explotación Petrolera</h3>
+                    <p>Modelo predictivo para evaluar la viabilidad de explotación en distintos pozos petroleros...</p>
+                    <div class="botones">
+                        <a href="https://github.com/jolufr/bootstrapping.git" target="_blank" class="boton">Ver en GitHub</a>
+                        <a href="proyectos/pozos.html" target="_blank" class="boton">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en:</p>
+        <ul>
+            <li>Email: jolufr@gmail.com</li>
+        </ul>
+        <div class="botones-contacto">
+            <a href="https://www.linkedin.com/in/josefernandez-datascientist/" target="_blank" class="boton">LinkedIn</a>
+            <a href="https://github.com/jolufr" target="_blank" class="boton">GitHub</a>
+        </div>
+    </section>
+    
+    <footer class="centrado">
+        <p>&copy; 2025 - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
