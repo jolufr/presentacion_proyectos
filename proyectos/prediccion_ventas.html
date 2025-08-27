@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Proyecto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .imagen-proyecto {
+            text-align: center;
+        }
+        .imagen-proyecto img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .boton {
+            display: block;
+            width: 200px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        .boton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Predicción Ventas y Visualización Con PowerBI</h1>
+
+    <div class="imagen-proyecto">
+        <img src="../img/retail.jpg" alt="Predicción Ventas y Visualización Con PowerBI">
+    </div>
+
+    <h2>🔍 Introducción</h2>
+    <p>
+        Este proyecto tiene como objetivo analizar y predecir las ventas utilizando técnicas de Machine Learning y visualizar los resultados en un tablero desarrollado en Power BI.
+    </p>
+
+    <h2>🎯 Objetivo</h2>
+    <p>
+        Analizar el comportamiento de las ventas para generar un dashboard interactivo que permita la toma de decisiones comerciales basadas en datos.
+    </p>
+
+    <h2>🛠️ Tecnologías Utilizadas</h2>
+    <ul>
+        <li>Python: Pandas, Numpy, Matplotlib, Scikit-learn, Regresión lineal, Bosque aleatorio, Regresor MLP</li>
+        <li>Jupyter Notebook: Entorno interactivo para análisis</li>
+        <li>Conjunto de datos en CSV: Contiene información de ventas para los años 2003, 2004 y 2005</li>
+    </ul>
+
+    <h2>📈 Pasos Clave (Metodología)</h2>
+    <h3>1️⃣ Análisis Exploratorio de Datos (EDA)</h3>
+    <ul>
+        <li>Resumen estadístico de los datos numéricos</li>
+        <li>Visualización y análisis de correlaciones</li>
+    </ul>
+    
+    <h3>2️⃣ Modelos de Machine Learning</h3>
+    <ul>
+        <li><strong>Predicción de Ventas:</strong> Random Forest fue el modelo seleccionado debido a la precisión que ofreció después del entrenamiento y bajo costo computacional frente a los otros modelos entrenados.</li>
+        <li><strong>Calidad de los modelos predictivos:</strong> Cálculo de métricas RMSE y  R² para validar el desempeño.</li>
+        
+    </ul>
+
+    <h2>📊 Resultados</h2>
+    <ul>
+        <li>Las predicciones alcanzan una exactitud del 88,43%, cifra que entrega confianza suficiente para la toma de decisiones comerciales.</li>
+        <li>Los valores más grandes en ventas son pocos, lo cual no permite que el modelo aprenda correctamente de ellos, por ende, las predicciones de estos valores de deben analizar detalladamente antes de tomar alguna decisión basada en ellos.</li>
+        <li>Es posible obtener mejoras en las siguientes áreas del negocio: inventario, presupuestos de marketing y ventas, logística y abastecimiento .</li>
+    </ul>
+
+    <a href="https://github.com/jolufr/retail_ventas_futuras.git" target="_blank" class="boton">Ver en GitHub</a>
+    <a href="../index.html" class="boton">Volver al Portafolio</a>
+
+</body>
+</html>
+
