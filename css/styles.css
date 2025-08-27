@@ -4,9 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <style>
-        /* ---------------------------
-           Banner
-        --------------------------- */
+        /* Banner */
         .banner {
             background-image: url('../banner.png');
             background-size: cover;
@@ -26,9 +24,7 @@
             border-radius: 10px;
         }
 
-        /* ---------------------------
-           Imagen de perfil
-        --------------------------- */
+        /* Imagen de perfil */
         .profile-pic {
             display: block;
             margin: 20px auto;
@@ -38,9 +34,7 @@
             border: 3px solid #333;
         }
 
-        /* ---------------------------
-           Sección "¿Quién soy?"
-        --------------------------- */
+        /* Sección "¿Quién soy?" */
         .intro {
             max-width: 700px;
             margin: 30px auto;
@@ -72,9 +66,7 @@
             color: #000;
         }
 
-        /* ---------------------------
-           Proyectos
-        --------------------------- */
+        /* Proyectos */
         .proyectos-container {
             margin-left: 1cm;
         }
@@ -122,9 +114,7 @@
             background-color: #333;
         }
 
-        /* ---------------------------
-           Contacto
-        --------------------------- */
+        /* Contacto */
         #contacto {
             text-align: center;
             margin-top: 40px;
